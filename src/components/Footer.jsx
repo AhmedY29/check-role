@@ -18,18 +18,6 @@ function Footer() {
             >
               <li>Home</li>
             </Link>
-            <Link
-              className="opacity-50 hover:opacity-100 transition-all duration-150"
-              to="/"
-            >
-              <li>Jobs</li>
-            </Link>
-            <Link
-              className="opacity-50 hover:opacity-100 transition-all duration-150"
-              to="/about"
-            >
-              <li>About</li>
-            </Link>
           </ul>
           <h1>&copy; 2025 all rights reserved</h1>
 
