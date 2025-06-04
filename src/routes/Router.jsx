@@ -8,6 +8,7 @@ import Home from "../pages/Home";
 import SignIn from "../pages/SignIn";
 import Navbar from "../components/Navbar";
 import SignUp from "../pages/SignUp";
+import Footer from "../components/Footer";
 
 const Layout = () => {
   let userInfo = JSON.parse(localStorage.getItem("UserName-Account"));
@@ -19,6 +20,7 @@ const Layout = () => {
     <>
       <Navbar />
       <Outlet />
+      <Footer />
     </>
   );
 };
